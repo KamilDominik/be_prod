@@ -7,7 +7,7 @@ const mongoClient = require('mongodb').MongoClient;
 const { ObjectId } = require('bson');
 let db;
 mongoClient.connect('mongodb+srv://sirthoms13:Chujdupa69@cluster0.zajc9.mongodb.net',(err,client) =>{
-    db = client.db('cluster0');
+    db = client.db('lessonstore');
 })
 
 app.use(express.json());
